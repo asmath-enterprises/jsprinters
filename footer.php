@@ -1,47 +1,32 @@
-    <div class="product-images pt-100">
+    <div class="product-images">
       <div class="container">
         <div class="product-images-slider owl-carousel owl-theme">
           <div class="product-images-item">
-            <img
-              class="clientlogo"
-              src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images"
-            />
+            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
+              alt="Images" />
           </div>
           <div class="product-images-item">
-            <img
-              class="clientlogo"
-              src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images"
-            />
+            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
+              alt="Images" />
           </div>
           <div class="product-images-item">
-            <img
-              class="clientlogo"
-              src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images"
-            />
+            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
+              alt="Images" />
           </div>
           <div class="product-images-item">
-            <img
-              class="clientlogo"
-              src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images"
-            />
+            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
+              alt="Images" />
           </div>
           <div class="product-images-item">
-            <img
-              class="clientlogo"
-              src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images"
-            />
+            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
+              alt="Images" />
           </div>
         </div>
       </div>
     </div>
     <footer class="footer-area">
       <div class="container">
-        <div class="footer-top-list pt-100 pb-70">
+        <div class="footer-top-list">
           <div class="row">
             <div class="col-lg-4 col-md-4">
               <div class="footer-list">
@@ -49,27 +34,27 @@
                 <ul>
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="services.html"> Shirt Box Printing</a>
+                    <a href="https://jsprinters.in/shirt-box-printing/"> Shirt Box Printing</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="services.html"> Sweet Box Printing</a>
+                    <a href="https://jsprinters.in/sweet-box-printing/"> Sweet Box Printing</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="services.html"> Inner Box Printing</a>
+                    <a href="https://jsprinters.in/inner-box-printing/"> Inner Box Printing</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="services.html"> Tag Printing</a>
+                    <a href="https://jsprinters.in/tag-printing/"> Tag Printing</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="services.html"> Brochure Printing</a>
+                    <a href="https://jsprinters.in/brochure-printing/"> Brochure Printing</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="services.html"> Notebook Printing</a>
+                    <a href="https://jsprinters.in/notebook-printing/"> Notebook Printing</a>
                   </li>
                 </ul>
               </div>
@@ -80,16 +65,16 @@
                 <ul>
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="index.html">Home</a>
+                    <a href="https://jsprinters.in/">Home</a>
                   </li>
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="services.html">Service</a>
+                    <a href="https://jsprinters.in/shirt-box-printing/">portfolio</a>
                   </li>
 
                   <li>
                     <i class="fa-solid fa-chevron-right"></i>
-                    <a href="contact.html">Contact</a>
+                    <a href="https://jsprinters.in/contact-us/">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -106,11 +91,12 @@
                   </li>
                   <li>
                     <i class="fa-solid fa-envelope"></i>
-                    <a href="#">info@jsprinters.in</a>
+                    <a href="mailto:info@jsprinters.in">info@jsprinters.in</a>
                   </li>
                   <li>
-                    <i class="fa-solid fa-location-dot"></i>
-                    28/A Street, New York, USA
+                    <i class="fa-solid fa-location-dot" style="width: 116px;"></i>
+                    <a href="https://goo.gl/maps/xEMkm8UnKvV3Ea8u9">321, 2, Thiruthangal Rd, near ashok calendar
+                      complex, Rengapa Shyam Nagar, Sivakasi, Tamil Nadu 626123</a>
                   </li>
                 </ul>
               </div>
@@ -138,10 +124,10 @@
                 </p>
                 <ul class="social-bottom">
                   <li>
-                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.linkedin.com/company/jsprinters/"><i class="fa-brands fa-linkedin-in"></i></a>
                   </li>
                   <li>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100082232964382"><i class="fa-brands fa-facebook-f"></i></a>
                   </li>
                   <li>
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -153,24 +139,27 @@
         </div>
       </div>
     </footer>
-    
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/jquery.min.js"></script>
 
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/jquery.min.js" type="text/javascript"></script>
 
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/owl.carousel.min.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/bootstrap.bundle.min.js" type="text/javascript">
+    </script>
 
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/meanmenu.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/owl.carousel.min.js" type="text/javascript">
+    </script>
 
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/wow.min.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/meanmenu.js" type="text/javascript"></script>
 
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/jquery.nice-select.min.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/wow.min.js" type="text/javascript"></script>
 
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/lazyload.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/jquery.nice-select.min.js" type="text/javascript">
+    </script>
 
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/main.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/main.js" type="text/javascript"></script>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/lazyload.js" type="text/javascript"></script>
 
-  <script src="<?php echo get_template_directory_uri();?>/assets/js/custom.js"></script>
-  </body>
-  <?php wp_footer();?>
-</html>
+    <script src="<?php echo get_template_directory_uri();?>/assets/js/custom.js" type="text/javascript"></script>
+    </body>
+    <?php wp_footer();?>
+
+    </html>

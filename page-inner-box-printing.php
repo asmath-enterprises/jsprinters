@@ -29,12 +29,12 @@
     <div class="row" style="float: right;padding-right: 60px;">
         <div class="">
             <div class="select_option mb-0">
-                <div class="nice-select" tabindex="0"><span class="current">Shirt box</span>
+                <div class="nice-select" tabindex="0"><span class="current">Inner Box</span>
                     <ul class="list">
 
-                        <li data-value="1" class="option"><a href="https://designlyworld.com/identity/">Sweet Box</a>
+                        <li data-value="1" class="option"><a href="https://designlyworld.com/identity/">Shirt box</a>
                         </li>
-                        <li data-value="2" class="option"><a href="https://designlyworld.com/packaging/">Inner Box</a>
+                        <li data-value="2" class="option"><a href="https://designlyworld.com/packaging/">Sweet Box</a>
                         </li>
                         <li data-value="3" class="option"><a
                                 href="https://designlyworld.com/brochure-catalogue/">Tag</a></li>
@@ -53,8 +53,8 @@
 </div>
 <div class="gallerycontainer">
     <div class="gallery-item">
-        <?php if( have_rows('shirtbox','options') ):?>
-        <?php while( have_rows('shirtbox','options') ) : the_row();
+        <?php if( have_rows('innerbox','options') ):?>
+        <?php while( have_rows('innerbox','options') ) : the_row();
             $image = get_sub_field('image');
             $imagename = get_sub_field('image_name');?>
         <div class="item wow fadeInUp2">

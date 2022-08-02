@@ -68,53 +68,53 @@
             >
               <ul class="navbar-nav m-auto">
                 <li class="nav-item">
-                  <a href="#" class="nav-link active"> Home </a>
+                  <a href="https://jsprinters.in/" class="nav-link active"> Home </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">
-                    Services
+                    Portfolio
                     <i class="fa-solid fa-angle-down"></i>
                   </a>
                   <ul class="dropdown-menu">
                     <li class="nav-item">
-                      <a href="services.html" class="nav-link">
+                      <a href="https://jsprinters.in/shirt-box-printing/" class="nav-link">
                         Shirt Box Printing
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="service-details.html" class="nav-link">
+                      <a href="https://jsprinters.in/sweet-box-printing/" class="nav-link">
                         Sweet Box Printing
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="service-details.html" class="nav-link">
+                      <a href="https://jsprinters.in/inner-box-printing/" class="nav-link">
                         Inner Box Printing
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="service-details.html" class="nav-link">
+                      <a href="https://jsprinters.in/tag-printing/" class="nav-link">
                         Tag Printing
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="service-details.html" class="nav-link">
+                      <a href="https://jsprinters.in/brochure-printing/" class="nav-link">
                         Brochure Printing
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="service-details.html" class="nav-link">
+                      <a href="https://jsprinters.in/notebook-printing/" class="nav-link">
                         Notebook Printing
                       </a>
                     </li>
                     <li class="nav-item">
-                      <a href="service-details.html" class="nav-link">
+                      <a href="https://jsprinters.in/visiting-card/" class="nav-link">
                         Visting Card Printing
                       </a>
                     </li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a href="contact.html" class="nav-link"> Contact </a>
+                  <a href="https://jsprinters.in/contact-us/" class="nav-link"> Contact </a>
                 </li>
               </ul>
               <div class="menu-btn">

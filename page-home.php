@@ -7,15 +7,10 @@
             <div class="container">
               <div class="slider-content">
                 <h1>We Provide Good Quality Printing</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quisipsum suspendisse ultrices gravida.
-                </p>
+      
                 <div class="slider-btn">
-                  <a href="#" class="default-btn">Know More</a>
-                  <a href="product.html" class="default-btn active"
-                    >Our Products</a
+                  <a href="https://jsprinters.in/shirt-box-printing/" class="default-btn active"
+                    >Our work</a
                   >
                 </div>
               </div>
@@ -25,7 +20,7 @@
       </div>
     </div>
 
-    <section class="product-area pt-100 pb-70">
+    <section class="product-area pt-70 pb-70">
       <div class="container">
         <div class="section-title text-center">
           <span>Recent Works </span>
@@ -39,17 +34,17 @@
         <div class="row pt-45">
           <div class="col-lg-4 col-md-6">
             <div class="product-card">
-              <a href="product-details.html">
+              <a href="https://jsprinters.in/shirt-box-printing/">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/new/shirtbox.jpeg" alt="Products Images" />
               </a>
               <div class="product-content">
-                <a href="product-details.html">
+                <a href="https://jsprinters.in/shirt-box-printing/">
                   <h3>Shirt Box Printing</h3>
                 </a>
                 <div class="product-cart">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://jsprinters.in/shirt-box-printing/">
                         <i class="fa-solid fa-chevron-right"></i>
                       </a>
                     </li>
@@ -60,18 +55,18 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="product-card">
-              <a href="product-details.html">
+              <a href="https://jsprinters.in/sweet-box-printing/">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/new/4.jpeg" alt="Products Images" />
               </a>
               <div class="product-content">
-                <a href="product-details.html">
+                <a href="https://jsprinters.in/sweet-box-printing/">
                   <h3>Sweet Box Printing</h3>
                 </a>
 
                 <div class="product-cart">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://jsprinters.in/sweet-box-printing/">
                         <i class="fa-solid fa-chevron-right"></i>
                       </a>
                     </li>
@@ -82,18 +77,18 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="product-card">
-              <a href="product-details.html">
+              <a href="https://jsprinters.in/inner-box-printing/">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/products/3.jpg" alt="Products Images" />
               </a>
               <div class="product-content">
-                <a href="product-details.html">
+                <a href="https://jsprinters.in/inner-box-printing/">
                   <h3>Inner Box Printing</h3>
                 </a>
 
                 <div class="product-cart">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://jsprinters.in/inner-box-printing/">
                         <i class="fa-solid fa-chevron-right"></i>
                       </a>
                     </li>
@@ -104,18 +99,18 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="product-card">
-              <a href="product-details.html">
+              <a href="https://jsprinters.in/tag-printing/">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/products/4.jpg" alt="Products Images" />
               </a>
               <div class="product-content">
-                <a href="product-details.html">
+                <a href="https://jsprinters.in/tag-printing/">
                   <h3>Tag Printing</h3>
                 </a>
 
                 <div class="product-cart">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://jsprinters.in/tag-printing/">
                         <i class="fa-solid fa-chevron-right"></i>
                       </a>
                     </li>
@@ -126,18 +121,18 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="product-card">
-              <a href="product-details.html">
+              <a href="https://jsprinters.in/brochure-printing/">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/products/5.jpg" alt="Products Images" />
               </a>
               <div class="product-content">
-                <a href="product-details.html">
+                <a href="https://jsprinters.in/brochure-printing/">
                   <h3>Brochure Printing</h3>
                 </a>
 
                 <div class="product-cart">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://jsprinters.in/brochure-printing/">
                         <i class="fa-solid fa-chevron-right"></i>
                       </a>
                     </li>
@@ -148,18 +143,18 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="product-card">
-              <a href="product-details.html">
+              <a href="https://jsprinters.in/notebook-printing/">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/products/6.jpg" alt="Products Images" />
               </a>
               <div class="product-content">
-                <a href="product-details.html">
+                <a href="https://jsprinters.in/notebook-printing/">
                   <h3>Notebook Printing</h3>
                 </a>
 
                 <div class="product-cart">
                   <ul>
                     <li>
-                      <a href="#">
+                      <a href="https://jsprinters.in/notebook-printing/">
                         <i class="fa-solid fa-chevron-right"></i>
                       </a>
                     </li>
@@ -175,7 +170,7 @@
       </div>
     </section>
 
-    <section class="choose-area ptb-100 pb-70">
+    <section class="choose-area ptb-70">
       <div class="container">
         <div class="section-title text-center">
           <span>Why Choose Us</span>
@@ -239,7 +234,7 @@
       </div>
     </section>
 
-    <section class="service-area pt-100 pb-70">
+    <section class="service-area pt-70 pb-70">
       <div class="servicecontainer">
         <div class="section-title text-center">
           <span>Features</span>
@@ -248,17 +243,17 @@
         <div class="row pt-45">
           <div class="col-lg-3 col-md-6">
             <div class="service-card">
-              <a href="services.html" style="border-bottom: 1px solid #d9d9d9">
+              <a href="#" style="border-bottom: 1px solid #d9d9d9">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/new/1.jpeg" alt="Service Images" />
               </a>
               <div class="service-content">
-                <a href="services.html"><h3>Met Pet Printing</h3></a>
+                <a href="#"><h3>Met Pet Printing</h3></a>
                 <p>
                   In Met Pet Printing, none of the ink is absorbed but the ink
                   is dried using UV rays. Printing is done on silver laminate
                   materials...
                 </p>
-                <a href="services.html" class="knwmrbtn">
+                <a href="#" class="knwmrbtn">
                   Know More <i class="fa-solid fa-chevron-right"></i>
                 </a>
               </div>
@@ -266,17 +261,17 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="service-card">
-              <a href="services.html">
+              <a href="#">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/new/2.jpeg" alt="Service Images" />
               </a>
               <div class="service-content">
-                <a href="services.html"><h3>UV Printing</h3></a>
+                <a href="#"><h3>UV Printing</h3></a>
                 <p>
                   UV printing is a unique method of digital printing utilising
                   ultraviolet (UV) light to dry or cure ink,adhesives or
                   coatings almost as soon as it’s hit...
                 </p>
-                <a href="services.html" class="knwmrbtn">
+                <a href="#" class="knwmrbtn">
                   Know More <i class="fa-solid fa-chevron-right"></i>
                 </a>
               </div>
@@ -284,17 +279,17 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="service-card">
-              <a href="services.html">
+              <a href="#">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/new/3.jpeg" alt="Service Images" />
               </a>
               <div class="service-content">
-                <a href="services.html"><h3>Drip off Printing</h3></a>
+                <a href="#"><h3>Drip off Printing</h3></a>
                 <p>
                   Drip Off represents an efficient and eye-catching method to
                   achieve matt/gloss effects or matt/structure effects in a
                   single process with just one coating unit...
                 </p>
-                <a href="services.html" class="knwmrbtn">
+                <a href="#" class="knwmrbtn">
                   Know More <i class="fa-solid fa-chevron-right"></i>
                 </a>
               </div>
@@ -302,17 +297,17 @@
           </div>
           <div class="col-lg-3 col-md-6">
             <div class="service-card">
-              <a href="services.html">
+              <a href="#">
                 <img src="<?php bloginfo('template_directory'); ?>/assets/img/new/4.jpeg" alt="Service Images" />
               </a>
               <div class="service-content">
-                <a href="services.html"><h3>Multi Color Printing</h3></a>
+                <a href="#"><h3>Multi Color Printing</h3></a>
                 <p>
                   A method of producing color impressions (reproductions) by
                   successive printing on paper or other material from plates on
                   a machine or press...
                 </p>
-                <a href="services.html" class="knwmrbtn">
+                <a href="#" class="knwmrbtn">
                   Know More <i class="fa-solid fa-chevron-right"></i>
                 </a>
               </div>
@@ -325,7 +320,7 @@
       </div>
     </section>
 
-    <div class="testimonial-area-two ptb-100">
+    <div class="testimonial-area-two ptb-70">
       <div class="container">
         <div class="section-title text-center">
           <span>Testimonial</span>

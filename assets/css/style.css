@@ -382,17 +382,17 @@ img {
 }
 .main-nav nav .navbar-nav .nav-item a.active i {
   -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+  transform: rotate(271deg);
 }
 .main-nav nav .navbar-nav .nav-item a:hover i {
   -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+  transform: rotate(271deg);
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .main-nav nav .navbar-nav .nav-item a:focus i {
   -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
+  transform: rotate(271deg);
 }
 .main-nav nav .navbar-nav .nav-item a .active::before {
   -webkit-transform: scale(1);
@@ -656,8 +656,8 @@ img {
   border-radius: 5px;
   color: #2d3652;
   background-color: #fff;
-  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 10px rgb(0 0 0 / 7%);
+  box-shadow: 0 0 10px rgb(0 0 0 / 7%);
   text-align: center;
   -webkit-transition: 0.7s;
   transition: 0.7s;
@@ -697,7 +697,7 @@ img {
   top: 0;
   left: 0;
   right: 0;
-  background-color: #ff2d55;
+  background-color: #1c243c;
   width: 100%;
   height: 0;
   opacity: 0;
@@ -1208,6 +1208,7 @@ img {
 
 .product-images {
   position: relative;
+  margin: 40px 0;
 }
 .product-images .owl-nav .owl-prev {
   position: absolute;
@@ -1251,7 +1252,7 @@ img {
 
 .footer-area {
   background-color: #1c243c;
-  margin-top: 100px;
+  margin-top: 20px;
 }
 .footer-contact {
   top: -100px;
@@ -1286,6 +1287,8 @@ img {
 .footer-top-list {
   max-width: 760px;
   margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .footer-list {
   margin-bottom: 30px;
@@ -1352,7 +1355,7 @@ img {
 }
 .footer-side-list ul li {
   margin-top: 10px;
-  display: block;
+  display: flex;
   font-size: 17px;
   color: #fff;
 }
@@ -1439,3 +1442,21 @@ img {
   color: #ff2d55;
 }
 /* footer end */
+.inner-bg7 {
+  background-image: url(../img/inner-banner/7.jpg);
+}
+.inner-banner {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+}
+.nice-select {
+  background-color: #2d3652;
+  color: white;
+}
+.nice-select a {
+  color: #2d3652;
+}
+.quantity {
+  padding: 0px 32px;
+}

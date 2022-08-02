@@ -76,7 +76,7 @@
       "<i class='fa-solid fa-arrow-left'></i>",
       "<i class='fa-solid fa-arrow-right'></i>",
     ],
-    responsive: { 0: { items: 2 }, 1000: { items: 4 } },
+    responsive: { 0: { items: 3 }, 1000: { items: 5 } },
   });
   $(".testimonial-slider-two").owlCarousel({
     loop: true,
@@ -205,5 +205,7 @@
   jQuery(window).on("load", function () {
     jQuery(".preloader").fadeOut(500);
   });
-  $("body").append("<a href=''  class='buy-now-btn'>Contact Now</a>");
+  $("body").append(
+    "<a href='tel:+919843422550'  class='buy-now-btn'>Contact Now</a>"
+  );
 })(jQuery);

@@ -3,11 +3,33 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .servicecontainer {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 @media only screen and (max-width: 991px) {
   .gallery-item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .selectoption {
+    margin-bottom: 25px;
+    width: -webkit-fill-available;
+  }
+  .quantity {
+    padding: 0px 0px;
+  }
+  .mobile-nav nav .navbar-nav {
+    height: auto;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .inputfill {
+    width: -webkit-fill-available;
   }
 }
 @media only screen and (max-width: 620px) {
@@ -282,8 +304,8 @@
     font-size: 14px;
   }
   .footer-area {
-    margin-top: 0;
-    padding-top: 50px;
+    margin-top: 70px;
+    padding-top: 0px;
   }
   .footer-contact {
     top: 0;
@@ -1112,8 +1134,12 @@
     font-size: 14px;
   }
   .footer-area {
-    margin-top: 0;
+    margin-top: 85px;
     padding-top: 50px;
+  }
+  .testimonial-img-2 img {
+    border-radius: 15px;
+    width: 220px !important;
   }
   .footer-contact {
     top: 0;
