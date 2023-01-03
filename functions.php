@@ -115,15 +115,16 @@ add_action( 'widgets_init', 'desktop_register_widgets_init' );
  
 if(function_exists('acf_add_options_page')){
     acf_add_options_page();
-    acf_add_options_sub_page('Identity');
-	acf_add_options_sub_page('Packaging');
-	acf_add_options_sub_page('Brochure & Catalogue');
-	acf_add_options_sub_page('Flyers & Posters');
-	acf_add_options_sub_page('Social Ads');
-    acf_add_options_sub_page('Hand Fan Printing');
-    acf_add_options_sub_page('Website Development');
-	acf_add_options_sub_page('Clients');
-   
+	acf_add_options_sub_page('Home');
+    acf_add_options_sub_page('shirt box');
+	acf_add_options_sub_page('sweet box');
+	acf_add_options_sub_page('Inner box');
+	acf_add_options_sub_page('Tag');
+	acf_add_options_sub_page('Brochure');
+    acf_add_options_sub_page('Notebook');
+    acf_add_options_sub_page('visting card'); 
+	acf_add_options_sub_page('client');
+
 }
 
 add_action( 'admin_menu', 'my_admin_menu' );

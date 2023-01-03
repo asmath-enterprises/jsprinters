@@ -29,21 +29,22 @@
     <div class="row" style="float: right;padding-right: 60px;">
         <div class="">
             <div class="select_option mb-0">
-                <div class="nice-select" tabindex="0"><span class="current">Shirt box</span>
+                <div class="nice-select" tabindex="0"><span class="current">Visting Card</span>
                     <ul class="list">
-                        <li data-value="1" class="option"><a href="https://jsprinters.in/sweet-box-printing/">Sweet Box</a>
+                      <li data-value="1" class="option"><a href="https://jsprinters.in/shirt-box-printing/">Shirt box</a>
                         </li>
-                            <li data-value="2" class="option"><a href="https://jsprinters.in/inner-box-printing/">Brochure</a>
+                        <li data-value="2" class="option"><a href="https://jsprinters.in/sweet-box-printing/">Sweet Box</a>
                         </li>
-                        <li data-value="3" class="option"><a
+                            <li data-value="3" class="option"><a href="https://jsprinters.in/inner-box-printing/">Brochure</a>
+                        </li>
+                        <li data-value="4" class="option"><a
                                 href="https://jsprinters.in/tag-printing/">Tag</a></li>
 
-                        <li data-value="4" class="option"><a href="https://jsprinters.in/brochure-printing/">Brochure</a>
+                        <li data-value="5" class="option"><a href="https://jsprinters.in/brochure-printing/">Brochure</a>
                         </li>
-                         <li data-value="5" class="option"><a href="https://jsprinters.in/notebook-printing/">Notebook</a>
+                         <li data-value="6" class="option"><a href="https://jsprinters.in/notebook-printing/">Notebook</a>
                         </li>
-                          <li data-value="6" class="option"><a href="https://jsprinters.in/visiting-card/">Visting Card</a>
-                        </li>
+                      
                     </ul>
                 </div>
             </div>
@@ -52,8 +53,8 @@
 </div>
 <div class="gallerycontainer">
     <div class="gallery-item">
-        <?php if( have_rows('shirtbox','options') ):?>
-        <?php while( have_rows('shirtbox','options') ) : the_row();
+        <?php if( have_rows('vistingcard','options') ):?>
+        <?php while( have_rows('vistingcard','options') ) : the_row();
             $image = get_sub_field('image');
             $imagename = get_sub_field('image_name');?>
         <div class="item wow fadeInUp2">

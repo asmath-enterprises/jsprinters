@@ -15,6 +15,7 @@ document.onkeydown = function (e) {
     return false;
   }
 };
+
 //
 (function (w, d, s, l, i) {
   w[l] = w[l] || [];
@@ -25,7 +26,7 @@ document.onkeydown = function (e) {
   j.async = true;
   j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
   f.parentNode.insertBefore(j, f);
-})(window, document, "script", "dataLayer", "GTM-TDNTTWQ");
+})(window, document, "script", "dataLayer", "GTM-K3KJV2X");
 //
 window.dataLayer = window.dataLayer || [];
 function gtag() {
@@ -33,4 +34,4 @@ function gtag() {
 }
 gtag("js", new Date());
 
-gtag("config", "G-KGK66TYXCJ");
+gtag("config", "G-VELX6SKM5V");

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <section class="page-title"
-	style="background-image: url(<?php bloginfo('template_directory');?>/assets/images/background/bg-17.jpg);">
+	style="background-image: url(<?php bloginfo('template_directory'); ?>/assets/img/404breadcrumb.png);">
 	<div class="auto-container">
 		<div class="content-box">
 			<div class="content-wrapper">
@@ -8,7 +8,7 @@
 					<h1><?php the_title();?></h1>
 				</div>
 				<ul class="bread-crumb clearfix">
-					<li><a href="https://designlyworld.com/">Home</a></li>
+					<li><a href="https://jsprinters.in/">Home</a></li>
 					<li><?php the_title();?></li>
 				</ul>
 			</div>

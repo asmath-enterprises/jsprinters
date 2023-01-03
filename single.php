@@ -32,14 +32,52 @@
 
     <div class="page-wrapper">
         <!-- Preloader -->
-        <div class="loader-wrap">
-            <div class="preloader">
-                <div class="preloader-close">Preloader Close</div>
+    
+	<!-- preloader - start -->
+	<div class="preloader">
+		<div class="animation_preloader">
+			<div class="spinner"></div>
+			<p class="text-center">Loading</p>
+		</div>
+		<div class="loader">
+			<div class="row vh-100">
+				<div class="col-3 loader_section section-left">
+					<div class="bg"></div>
+				</div>
+				<div class="col-3 loader_section section-left">
+					<div class="bg"></div>
+				</div>
+				<div class="col-3 loader_section section-right">
+					<div class="bg"></div>
+				</div>
+				<div class="col-3 loader_section section-right">
+					<div class="bg"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- preloader - end -->
+		<!-- breadcrumb_section - start
+			================================================== -->
+<section class="breadcrumb_section d-flex align-items-center clearfix"
+    data-background="<?php bloginfo('template_directory'); ?>/assets/images/new/breadcrumbsabt.webp">
+    <div class="container">
+        <div class="row align-items-center justify-content-lg-between">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 wow fadeInLeft" data-wow-delay=".1s">
+             
             </div>
-            <div class="layer layer-one"><span class="overlay"></span></div>
-            <div class="layer layer-two"><span class="overlay"></span></div>
-            <div class="layer layer-three"><span class="overlay"></span></div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 wow fadeInRight" data-wow-delay=".1s">
+                <ul class="breadcrumb_nav ul_li_right clearfix">
+                   
+                </ul>
+            </div>
         </div>
+    </div>
+</section>
+<!-- breadcrumb_section - end
+			================================================== -->
+
 
         <div class="error-section">
             <div class="auto-container">
@@ -47,7 +85,7 @@
                     <div class="image" style="
     margin-top: 50px;
     margin-bottom: 50px;
-"><img src="<?php bloginfo('template_directory');?>/assets/images/resource/404.png" alt=""></div>
+"><img src="<?php bloginfo('template_directory');?>/assets/images/404.png" alt=""></div>
                     <div class="content" >
                         <h1>Page is not found</h1>
                         <div class="text">We're not being able to find this page.</div>

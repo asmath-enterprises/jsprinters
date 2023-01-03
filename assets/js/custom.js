@@ -60,6 +60,7 @@
     dots: false,
     autoplay: true,
     autoplayHoverPause: true,
+    responsive: { 0: { nav: false }, 767: { nav: false } },
     navText: [
       "<i class='fa-solid fa-chevron-left'></i>",
       "<i class='fa-solid fa-chevron-right'></i>",
@@ -76,7 +77,7 @@
       "<i class='fa-solid fa-arrow-left'></i>",
       "<i class='fa-solid fa-arrow-right'></i>",
     ],
-    responsive: { 0: { items: 2 }, 1000: { items: 4 } },
+    responsive: { 0: { items: 2 }, 1000: { items: 5 } },
   });
   $(".testimonial-slider-two").owlCarousel({
     loop: true,
@@ -205,5 +206,29 @@
   jQuery(window).on("load", function () {
     jQuery(".preloader").fadeOut(500);
   });
-  $("body").append("<a href=''  class='buy-now-btn'>Contact Now</a>");
+  // $("body").append(
+  //   "<div class='switch-box'><label id='switch' class='switch'><input type='checkbox' onchange='toggleTheme()' id='slider'><span class='slider round'></span></label></div>"
+  // );
 })(jQuery);
+
+// function setTheme(themeName) {
+//   localStorage.setItem("js_theme", themeName);
+//   document.documentElement.className = themeName;
+// }
+
+// function toggleTheme() {
+//   if (localStorage.getItem("js_theme") === "theme-dark") {
+//     setTheme("theme-light");
+//   } else {
+//     setTheme("theme-dark");
+//   }
+// }
+// (function () {
+//   if (localStorage.getItem("js_theme") === "theme-dark") {
+//     setTheme("theme-dark");
+//     document.getElementById("slider").checked = true;
+//   } else {
+//     setTheme("theme-light");
+//     document.getElementById("slider").checked = false;
+//   }
+// })();

@@ -88,7 +88,7 @@
                   <div class="thankyou-wrapper">
                       <h1>Thank You</h1>
                         <p>for contacting us, we will get in touch with you soon... </p>
-                        <a href="https://qaximum.baboolsoft.com/">Back to home</a>
+                        <a href="https://jsprinters.in/">Back to home</a>
                         <div class="clr"></div>
                     </div>
                     <div class="clr"></div>

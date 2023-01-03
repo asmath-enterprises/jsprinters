@@ -1,13 +1,50 @@
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1800px) {
   .gallery-item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+  .servicecontainer {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1200px) {
   .gallery-item {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .servicecontainer {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .testimonial-area-two .owl-theme .owl-nav {
+    margin-left: 0px;
+  }
+  .gallery-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .selectoption {
+    margin-bottom: 25px;
+    width: -webkit-fill-available;
+  }
+  .quantity {
+    padding: 0px 0px;
+  }
+  .mobile-nav nav .navbar-nav {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .inputfill {
+    width: -webkit-fill-available;
   }
 }
 @media only screen and (max-width: 620px) {
@@ -282,8 +319,8 @@
     font-size: 14px;
   }
   .footer-area {
-    margin-top: 0;
-    padding-top: 50px;
+    margin-top: 70px;
+    padding-top: 0px;
   }
   .footer-contact {
     top: 0;
@@ -313,6 +350,9 @@
   }
   .footer-side-list ul li {
     font-size: 14px;
+  }
+  .addrs {
+    width: 70px;
   }
   .footer-side-list ul li i {
     width: 30px;
@@ -798,8 +838,16 @@
     font-size: 14px;
     margin-top: 15px;
   }
+  .home-slider {
+    position: relative;
+    margin-top: 55px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+  .home-slider {
+    position: relative;
+    margin-top: 55px;
+  }
   .banner-content {
     margin-left: auto;
     margin-right: auto;
@@ -868,6 +916,9 @@
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .testimonial-area-two .owl-theme .owl-nav {
+    margin-left: 0px;
+  }
   body {
     font-size: 14px;
   }
@@ -1112,8 +1163,12 @@
     font-size: 14px;
   }
   .footer-area {
-    margin-top: 0;
+    margin-top: 85px;
     padding-top: 50px;
+  }
+  .testimonial-img-2 img {
+    border-radius: 15px;
+    width: 220px !important;
   }
   .footer-contact {
     top: 0;
