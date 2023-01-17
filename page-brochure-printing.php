@@ -53,16 +53,20 @@
 </div>
 <div class="gallerycontainer">
     <div class="gallery-item">
-        <?php if( have_rows('brochure','options') ):?>
-        <?php while( have_rows('brochure','options') ) : the_row();
+                          <?php $outs = array(); if( have_rows('brochure','options') ):        
+            while ( have_rows('brochure','options') ) : the_row();  ob_start();
             $image = get_sub_field('image');
-            $imagename = get_sub_field('image_name');?>
-        <div class="item wow fadeInUp2">
+            $imagename = get_sub_field('image_name');
+        ?>
+          <div class="item wow fadeInUp2">
             <img data-src="<?php echo $image?>" alt="<?php echo $imagename?>">
         </div>
-        <?php endwhile;?>
-        <?php endif; ?>
-
+        <?php $outs[] = ob_get_clean(); endwhile; 
+        else :
+        endif;
+        $outs = array_reverse($outs);
+        echo implode($outs);
+        ?>
     </div>
 </div>
 <?php get_footer();?>

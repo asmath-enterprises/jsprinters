@@ -98,6 +98,11 @@
   border-top: 1px solid #1c1c1c;
   color: #ffffff;
 }
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a:hover,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a :focus,
+.main-nav nav .navbar-nav .nav-item .dropdown-menu li a .active {
+  background-color: #000000;
+}
 
 .theme-dark .section-title h2 {
   color: white;

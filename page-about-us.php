@@ -107,15 +107,31 @@
 </section>
 <section class="product-area pt-70 pb-70">
   <div class="container">
+
     <div class="section-title text-center">
-      <span>Our Services</span>
-      <h2>Some of our services</h2>
-      <p>
-        What indication best sick be project proposal in attempt, train of
-        the showed some a forth. That homeless, won't many of goals thoughts
-        volumes felt.
-      </p>
+      <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="40" data-aos-duration="1200" data-aos-mirror="true"
+        data-aos-once="true">
+        <span>Our Services</span>
+
+      </div>
+      <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="80" data-aos-duration="1200" data-aos-mirror="true"
+        data-aos-once="true">
+
+        <h2>Some of our services</h2>
+      </div>
+
+      <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1200" data-aos-mirror="true"
+        data-aos-once="true">
+
+        <p>
+          What indication best sick be project proposal in attempt, train of
+          the showed some a forth. That homeless, won't many of goals thoughts
+          volumes felt.
+        </p>
+      </div>
     </div>
+
+
     <div class="row pt-45">
 
       <?php if( have_rows('product','options') ):?>
@@ -124,23 +140,27 @@
             $imagename = get_sub_field('image_name');
             $productlink = get_sub_field('product_link');
             ?>
+
       <div class="col-lg-4 col-md-6">
-        <div class="product-card">
-          <a href="<?php echo esc_url( $productlink ); ?>">
-            <img data-src="<?php echo $image?>" alt="<?php echo $imagename?>" />
-          </a>
-          <div class="product-content">
+        <div data-aos="fade-up" data-aos-offset="200" data-aos-delay="<?php echo get_row_index(); ?>00"
+          data-aos-duration="1500" data-aos-mirror="true" data-aos-once="true">
+          <div class="product-card">
             <a href="<?php echo esc_url( $productlink ); ?>">
-              <h3><?php echo $imagename?></h3>
+              <img data-src="<?php echo $image?>" alt="<?php echo $imagename?>" />
             </a>
-            <div class="product-cart">
-              <ul>
-                <li>
-                  <a href="<?php echo esc_url( $productlink ); ?>">
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-                </li>
-              </ul>
+            <div class="product-content">
+              <a href="<?php echo esc_url( $productlink ); ?>">
+                <h3><?php echo $imagename?></h3>
+              </a>
+              <div class="product-cart">
+                <ul>
+                  <li>
+                    <a href="<?php echo esc_url( $productlink ); ?>">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -151,7 +171,7 @@
     </div>
   </div>
   <div class="product-shape">
-    <img data-src="<?php bloginfo('template_directory'); ?>/assets/img/products/shape.png" alt="Products Shape" />
+    <img data-src="<?php bloginfo('template_directory'); ?>/assets/img/shape/shape.png" alt="Products Shape" />
   </div>
 </section>
 <div class="testimonial-area-two ptb-70">
@@ -183,32 +203,26 @@
     <i class="fa-solid fa-quote-right"></i>
   </div>
 </div>
-    <div class="product-images">
-      <div class="container">
-        <div class="product-images-slider owl-carousel owl-theme">
-          <div class="product-images-item">
-            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images" />
-          </div>
-          <div class="product-images-item">
-            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images" />
-          </div>
-          <div class="product-images-item">
-            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images" />
-          </div>
-          <div class="product-images-item">
-            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images" />
-          </div>
-          <div class="product-images-item">
-            <img class="clientlogo" src="<?php bloginfo('template_directory'); ?>/assets/img/new/client.jpg"
-              alt="Images" />
-          </div>
-        </div>
+<div class="product-images">
+  <div class="container">
+    <div class="product-images-slider owl-carousel owl-theme">
+      <?php $outs = array(); if( have_rows('clientlogo','options') ):        
+            while ( have_rows('clientlogo','options') ) : the_row();  ob_start();
+            $images = get_sub_field('image');
+            $contents = get_sub_field('content');
+        ?>
+      <div class="product-images-item">
+        <img class="clientlogo" src="<?php echo $images?>" alt="<?php echo $contents?>" />
       </div>
+      <?php $outs[] = ob_get_clean(); endwhile; 
+        else :
+        endif;
+        $outs = array_reverse($outs);
+        echo implode($outs);
+        ?>
     </div>
+  </div>
+</div>
 
 
 <?php get_footer();?>
